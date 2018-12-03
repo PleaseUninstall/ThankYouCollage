@@ -1,12 +1,13 @@
 //add thank you code here
 PImage img;
+PImage key;
 
 void setup() {
 //backgrounsd
 size(600,600);
 background(255);
 //thank you text
-img = loadImage("keyboard.png");
+key = loadImage("keyboard.png");
 image(img,63,310,width/3,height/4);
 
 

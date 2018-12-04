@@ -1,5 +1,5 @@
 //add thank you code here
-PImage img;
+PImage thanks;
 PImage key;
 
 void setup() {
@@ -26,7 +26,7 @@ fill(66, random(75,180), 244);
 quad(70,180,260,180,260,280,70,280);
 fill(#6A5C5C);
 quad(145,300,185,300,185,320,145,320);
-img = loadImage("thanks.png");
+thanks = loadImage("thanks.png");
 
 if(mousePressed){
 fill(#554C4C);

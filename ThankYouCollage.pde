@@ -27,6 +27,7 @@ quad(70,180,260,180,260,280,70,280);
 fill(#6A5C5C);
 quad(145,300,185,300,185,320,145,320);
 image(key,63,310,width/3,height/4);
+image(thanks,285,25,width/2,height/2);
 
 if(mousePressed){
 fill(#554C4C);
@@ -60,7 +61,7 @@ ellipse(360,545,40,40);
 fill(random(0,255), random(0,255), random(0,255));
 ellipse(530,530,65,65);
 image(key,63,310,width/3,height/4);
-image(thanks,285,25,width/2,height/2);
+
 }else{
 fill(#554C4C);
 ellipse(325,400,50,70);

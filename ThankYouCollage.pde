@@ -8,7 +8,7 @@ size(600,600);
 background(255);
 //thank you text
 key = loadImage("keyboard.png");
-image(img,63,310,width/3,height/4);
+image(key,63,310,width/3,height/4);
 
 
 
@@ -33,7 +33,7 @@ fill(#554C4C);
 ellipse(325,400,50,70);
 line(325,365,325,390);
 line(300,390,350,390);
-image(img,285,25,width/2,height/2);
+image(thanks,285,25,width/2,height/2);
 fill(random(0,255), random(0,255), random(0,255));
 ellipse(80,80,50,50);
 fill(random(0,255), random(0,255), random(0,255));

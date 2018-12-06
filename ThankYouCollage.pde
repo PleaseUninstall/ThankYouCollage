@@ -8,7 +8,7 @@ size(600,600);
 background(255);
 //thank you text
 key = loadImage("keyboard.png");
-image(key,63,310,width/3,height/4);
+
 
 
 
@@ -27,6 +27,7 @@ quad(70,180,260,180,260,280,70,280);
 fill(#6A5C5C);
 quad(145,300,185,300,185,320,145,320);
 thanks = loadImage("thanks.png");
+image(key,63,310,width/3,height/4);
 
 if(mousePressed){
 fill(#554C4C);
@@ -60,10 +61,12 @@ fill(random(0,255), random(0,255), random(0,255));
 ellipse(360,545,40,40);
 fill(random(0,255), random(0,255), random(0,255));
 ellipse(530,530,65,65);
+image(key,63,310,width/3,height/4);
 }else{
 fill(#554C4C);
 ellipse(325,400,50,70);
 line(325,365,325,390);
 line(300,390,350,390);
+image(key,63,310,width/3,height/4);
 }
 }
